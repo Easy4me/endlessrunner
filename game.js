@@ -2,7 +2,7 @@
 
 const playerImg = new Image();
 
-playerImg.src = "https://lh3.googleusercontent.com/t9Aa0tnM7LzTeBuQQYtS5XLNfdBtdkPDulirDwQPhD2eRClfuQRlTos-5B4Pwo1XII07XRm2AQ=w50-h50-e365";
+playerImg.src = "pac.png";
 
 
 let canvas = document.getElementById("paper");
@@ -218,16 +218,8 @@ function init() {
 
 
 init();
-  
-
 update();
 
-
-
-
-canvas.style.backgroundImage = "url('https://wallpapercave.com/wp/f2KTKjr.png')";
+canvas.style.backgroundImage = "url('f2KTKjr.png')";
 ctx.fillStyle = "#ffhjkl";
 ctx.fillRect(0, 469, 30, 30);
-
- 
-

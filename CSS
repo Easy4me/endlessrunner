@@ -1,19 +1,4 @@
-canvas{
-  margin: auto;
- border-bottom: 5px solid black;
-}
-
-body{
-  display: flex;
-  height:9vh;
-}
-body{
-  background: #ffffff
-}
-
-
-#score-container {
-  font-family: monospace;
-  text-align: center;
-  color: #fff;
-}
+<div class="container">
+<canvas id="paper" height=500 width=1000></canvas>
+ <div id="score-container">score: 0</div>
+</div>

@@ -1,0 +1,21 @@
+canvas {
+  margin: auto;
+  border: 5px solid black;
+}
+
+body {
+  display: flex;
+  height: 99vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #ffffff
+}
+
+#score-container {
+  font-family: Verdana;
+  text-align: center;
+  color: #002EFF;
+}

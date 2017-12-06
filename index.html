@@ -1,19 +1,14 @@
-
-<div class="container">
-  <canvas id="paper" height=500 width=300></canvas>
-</div>
-
-
-"use strict";
-
-
-
-let canvas = document.getElementById("paper");
-
-let ctx = canvas.getContext("2d");
-
-
-ctx.fillStyle = "#ffhjkl";
-
-
-ctx.fillRect(100, 100, 70, 50);
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Eric and Amara's Endless Runner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    <canvas id="paper" height=500 width=1000></canvas>
+     <div id="score-container">score: 0</div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
